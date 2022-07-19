@@ -45,8 +45,5 @@ speedDown(150, printer) */
   }
 
   let spaceShipVelocity = 150;
-
-  slowDown(spaceShipVelocity, (velocity) => {
-           alert(`Velocidade atual: ${velocity}`)
-           })
+  slowDown(spaceShipVelocity, velocity => alert(`Velocidade atual: ${velocity}`))
 */
