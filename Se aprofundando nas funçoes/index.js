@@ -18,15 +18,15 @@ slowDown(spaceShipVelocity, printer)
 
 // segundo forma encontrada
 
-/* const speedDown = (velocidade, callPrinter) => {
-  while (velocidade > 0) {
-    callPrinter(velocidade)
-    velocidade -= 20
+/* const speedDown = (velocity, callPrinter) => {
+  while (velocity > 0) {
+    callPrinter(velocity)
+    velocity -= 20
   }
   console.log(`A nave esta parada, abrindo portas!`);
-  return velocidade
+  return velocity
 }
 
-const printer = velocidade => console.log(`Velocidade da nave: ${velocidade}`);
+const printer = velocity => console.log(`Velocidade da nave: ${velocity}`);
 
 speedDown(150, printer) */
